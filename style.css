@@ -1,13 +1,11 @@
 /* Estilo para o corpo da página */
 body {
-    background-color: rgb(231, 217, 237); /* Cor de fundo suave */
+    background-color: black; /* Cor de fundo preta */
     text-align: center; /* Centraliza o conteúdo */
     font-family: Arial, sans-serif; /* Fonte simples e limpa */
     margin: 0;
     padding: 0;
-    background-image: url('background.png'); /* Imagem de fundo, você pode substituir 'background.png' */
-    background-size: cover; /* Faz com que a imagem de fundo cubra toda a tela */
-    background-position: center; /* Alinha a imagem de fundo ao centro */
+    color: white; /* Cor do texto em branco */
 }
 
 /* Estilo para o título principal */
@@ -28,7 +26,7 @@ h1 {
 
 /* Estilo para os parágrafos */
 p {
-    color: rgb(68, 68, 68); /* Cor do texto */
+    color: white; /* Cor do texto em branco */
     line-height: 1.6; /* Espaçamento entre linhas para melhorar a leitura */
     margin: 20px 15px; /* Margem nas laterais */
     font-size: 1.1em; /* Aumenta o tamanho da fonte */
@@ -54,7 +52,7 @@ ul {
 li {
     font-size: 1.2em; /* Tamanho de fonte um pouco maior para os itens */
     margin: 10px 0; /* Espaço entre os itens */
-    color: rgb(57, 57, 57); /* Cor dos itens da lista */
+    color: white; /* Cor dos itens da lista em branco */
 }
 
 /* Estilo para os subtítulos dentro da lista */
@@ -86,3 +84,4 @@ h3 {
         font-size: 1em; /* Ajusta o tamanho da fonte dos itens da lista */
     }
 }
+
