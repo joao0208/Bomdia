@@ -5,6 +5,9 @@ body {
     font-family: Arial, sans-serif; /* Fonte simples e limpa */
     margin: 0;
     padding: 0;
+    background-image: url('background.png'); /* Imagem de fundo, você pode substituir 'background.png' */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a tela */
+    background-position: center; /* Alinha a imagem de fundo ao centro */
 }
 
 /* Estilo para o título principal */
