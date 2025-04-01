@@ -11,7 +11,7 @@ body {
 /* Estilo para o título principal */
 h1 {
     font-style: italic; /* Título em itálico */
-    color: rgb(214, 59, 150); /* Cor do título em tom rosa */
+    color: white; /* Cor do título em branco */
     margin-top: 30px; /* Espaço acima do título */
     font-size: 2.5em; /* Tamanho do título */
 }
@@ -34,7 +34,7 @@ p {
 
 /* Estilo para os subtítulos */
 h2 {
-    color: rgb(145, 28, 90); /* Cor para os subtítulos */
+    color: white; /* Cor para os subtítulos em branco */
     margin-top: 25px; /* Espaço acima dos subtítulos */
     font-size: 1.8em; /* Tamanho de fonte um pouco menor que o título */
 }
