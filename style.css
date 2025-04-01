@@ -11,7 +11,7 @@ body {
 /* Estilo para o título principal */
 h1 {
     font-style: italic; /* Título em itálico */
-    color: white; /* Cor do título em branco */
+    color: white !important; /* Cor do título em branco com prioridade */
     margin-top: 30px; /* Espaço acima do título */
     font-size: 2.5em; /* Tamanho do título */
 }
@@ -84,4 +84,3 @@ h3 {
         font-size: 1em; /* Ajusta o tamanho da fonte dos itens da lista */
     }
 }
-
