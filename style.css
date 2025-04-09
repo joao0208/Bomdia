@@ -2,6 +2,7 @@ body {
     background-color: black; /* Fundo preto */
     color: white; /* Texto branco */
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -13,6 +14,11 @@ h2 {
     color: aquamarine;
 }
 
+h3 {
+    color: rgb(255, 105, 180); /* Cor personalizada para o título h3 */
+}
+
 .imagem {
     width: 50%; /* Tamanho da imagem ajustado */
+    margin-top: 20px;
 }
