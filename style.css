@@ -1,86 +1,18 @@
-/* Estilo para o corpo da página */
 body {
-    background-color: black; /* Cor de fundo preta */
-    text-align: center; /* Centraliza o conteúdo */
-    font-family: Arial, sans-serif; /* Fonte simples e limpa */
-    margin: 0;
-    padding: 0;
-    color: white; /* Cor do texto em branco */
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    text-align: center;
 }
 
-/* Estilo para o título principal */
 h1 {
-    font-style: italic; /* Título em itálico */
-    color: white !important; /* Cor do título em branco com prioridade */
-    margin-top: 30px; /* Espaço acima do título */
-    font-size: 2.5em; /* Tamanho do título */
+    font-style: italic;
+    color: rgb(214, 59, 150); /* Cor personalizada para o título */
 }
 
-/* Estilo para a imagem */
-.imagem {
-    width: 40%; /* Define a largura da imagem para 40% da tela */
-    margin-top: 20px; /* Espaço acima da imagem */
-    border-radius: 8px; /* Bordas arredondadas na imagem */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor da imagem */
-}
-
-/* Estilo para os parágrafos */
-p {
-    color: white; /* Cor do texto em branco */
-    line-height: 1.6; /* Espaçamento entre linhas para melhorar a leitura */
-    margin: 20px 15px; /* Margem nas laterais */
-    font-size: 1.1em; /* Aumenta o tamanho da fonte */
-}
-
-/* Estilo para os subtítulos */
 h2 {
-    color: white; /* Cor para os subtítulos em branco */
-    margin-top: 25px; /* Espaço acima dos subtítulos */
-    font-size: 1.8em; /* Tamanho de fonte um pouco menor que o título */
+    color: aquamarine;
 }
 
-/* Estilo para os itens de lista */
-ul {
-    list-style-type: none; /* Remove os pontos da lista */
-    padding: 0; /* Remove o padding padrão da lista */
-    margin-top: 20px; /* Espaço acima da lista */
-    text-align: left; /* Alinha os itens à esquerda */
-    display: inline-block; /* Deixa a lista centralizada */
-}
-
-/* Estilo para os itens individuais da lista */
-li {
-    font-size: 1.2em; /* Tamanho de fonte um pouco maior para os itens */
-    margin: 10px 0; /* Espaço entre os itens */
-    color: white; /* Cor dos itens da lista em branco */
-}
-
-/* Estilo para os subtítulos dentro da lista */
-h3 {
-    color: rgb(121, 20, 85); /* Cor para os subtítulos dentro da lista */
-    font-size: 1.5em; /* Tamanho de fonte para os subtítulos da lista */
-    margin-top: 20px; /* Espaço acima do subtítulo */
-}
-
-/* Responsividade para dispositivos menores (como celulares) */
-@media screen and (max-width: 768px) {
-    .imagem {
-        width: 80%; /* Aumenta o tamanho da imagem para dispositivos pequenos */
-    }
-
-    p {
-        font-size: 1em; /* Ajusta o tamanho da fonte do texto */
-    }
-
-    h1 {
-        font-size: 2em; /* Diminui o tamanho do título */
-    }
-
-    h2 {
-        font-size: 1.5em; /* Ajusta o tamanho do subtítulo */
-    }
-
-    li {
-        font-size: 1em; /* Ajusta o tamanho da fonte dos itens da lista */
-    }
+.imagem {
+    width: 50%; /* Tamanho da imagem ajustado */
 }
