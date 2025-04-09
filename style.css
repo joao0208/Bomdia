@@ -5,20 +5,24 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1, h2, h3 {
+    color: purple; /* Títulos roxos */
+}
+
 h1 {
     font-style: italic;
-    color: rgb(214, 59, 150); /* Cor personalizada para o título */
 }
 
 h2 {
-    color: aquamarine;
+    color: purple; /* Cor roxa para o título h2 */
 }
 
 h3 {
-    color: rgb(255, 105, 180); /* Cor personalizada para o título h3 */
+    color: purple; /* Cor roxa para o título h3 */
 }
 
 .imagem {
     width: 50%; /* Tamanho da imagem ajustado */
     margin-top: 20px;
 }
+
