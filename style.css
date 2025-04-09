@@ -6,7 +6,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: purple; /* Títulos roxos */
+    color: purple; /* Todos os títulos roxos */
 }
 
 h1 {
@@ -14,11 +14,11 @@ h1 {
 }
 
 h2 {
-    color: purple; /* Cor roxa para o título h2 */
+    font-size: 1.5em;
 }
 
 h3 {
-    color: purple; /* Cor roxa para o título h3 */
+    font-size: 1.2em;
 }
 
 .imagem {
