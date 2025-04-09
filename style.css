@@ -5,12 +5,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1, h2, h3 {
-    color: purple; /* Todos os títulos roxos */
+h1 {
+    color: white; /* Cor branca para o h1 */
+    font-style: italic;
 }
 
-h1 {
-    font-style: italic;
+h2, h3 {
+    color: purple; /* Cor roxa para h2 e h3 */
 }
 
 h2 {
@@ -25,4 +26,3 @@ h3 {
     width: 50%; /* Tamanho da imagem ajustado */
     margin-top: 20px;
 }
-
